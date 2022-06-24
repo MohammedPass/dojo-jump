@@ -499,7 +499,7 @@ function init() {
 
   function updateScore() {
     var scoreText = document.getElementById("score");
-    scoreText.innerHTML = score;
+    scoreText.innerHTML = score*10;
   }
 
   function gameOver() {
