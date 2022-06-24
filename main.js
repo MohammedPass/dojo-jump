@@ -593,7 +593,7 @@ function showGoMenu() {
   menu.style.visibility = "visible";
 
   var scoreText = document.getElementById("go_score");
-  scoreText.innerHTML = "You scored " + score + " points!";
+  scoreText.innerHTML = "You scored " + score*10 + " points!";
 }
 
 //Hides the game over menu
