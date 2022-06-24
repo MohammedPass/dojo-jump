@@ -501,8 +501,9 @@ function init() {
     var scoreText = document.getElementById("score");
     scoreText.innerHTML = score*10;
   }
-
+  var audio = new Audio('WhatsApp Audio 2022-06-24 at 9.33.55 PM.mp4');
   function gameOver() {
+    audio.play();
     platforms.forEach(function (p, i) {
       p.y -= 12;
     });
